@@ -33,7 +33,6 @@ module.exports = function (grunt) {
   // ----- Grunt develop ----- //
 
   grunt.registerTask('develop', 'Build child theme, watch for changes and process them.', [
-    'build:child',
     'watch'
   ]);
 

@@ -13,7 +13,7 @@ module.exports = {
       authKey: 'lokaalgevonden'
     },
     src: 'deploy',
-    dest: '/wp-content/themes/slate',
+    dest: '/wp-content/themes/slate_evertse',
     simple: true,
     useList: true
   }
