@@ -1,0 +1,94 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+
+.Header {
+  background-image: url("http://placekitten.com/1100/420");
+  background-size: cover;
+  height: 420px;
+  position: relative;
+}
+
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
+
+
+.Header-text {
+	background-color: rgba(0, 27, 51, 0.8);
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+	border-top: 4px solid #FFF;
+	line-height: 10px;
+	p {
+		text-align: center;
+		font-size: 22px;
+		color: white;
+	}
+}

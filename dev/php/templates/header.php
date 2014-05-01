@@ -36,6 +36,10 @@
   </head>
   <body <?php body_class(); ?> >
 	<!-- Main navigation -->
-
-test aaaa ss
     <?php include 'includes/navigation.php'; ?>
+
+	<div class="Header">
+		<div class="Header-text">
+				<p>Nieuwsgierig? Kom gerust eens kennismaken! <a class="Button button--contact" href="/contact/">contact</a></p>
+		</div>
+	</div>

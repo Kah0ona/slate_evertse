@@ -1,0 +1,65 @@
+// *************************************
+//
+// Footer
+// -> All footer
+//
+// *************************************
+
+
+.Footer {
+  background-color: $c-patternBlue;
+  background-image: url('../img/crissXcross.png');
+  background-size: 10%;
+}
+
+.Footer-inner {
+	padding: 0 40px 10px 40px;
+	h4 {
+		color: white;
+		line-height: 15px;
+		font-weight: 400;
+		margin: 40px 0 25px 0;
+		font-size: 22px;
+	}
+	p {
+		color: white;
+		line-height: 10px;
+		font-weight: 400;
+		margin-left: 5px;
+		font-size: 15px;
+	}
+}
+
+.Footer-inner {
+	padding: 0 40px 20px;
+}
+
+.Footer-inner .widget {
+	@include span-columns(4);
+	
+}
+
+.copyright-info p {
+	text-align: center;
+	line-height: 0;
+}
+  
+
+
+//===============================================================================
+//                                 @media queries
+//===============================================================================
+
+@media all and (max-width: 730px) {	
+	.Footer-inner .widget {
+		@include span-columns(4);
+	}
+}
+
+
+@media all and (max-width: 550px) {	
+	.Footer-inner .widget {
+		@include span-columns(12);
+		text-align: center;
+	}
+}

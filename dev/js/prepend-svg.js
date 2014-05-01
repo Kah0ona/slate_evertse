@@ -6,7 +6,7 @@
 // *************************************
 
 $.ajax({
-  url:"https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg",
+  url:"/wp-content/themes/slate_evertse/ico/sprites.svg",
   method: "GET",
   dataType: "html",
   success: function(data) {

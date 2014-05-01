@@ -1,0 +1,89 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  text-align: center;
+  background-color: $c-patternBlue;
+  margin-top: 25px;
+  padding: 1px 0 1px;
+  background-image: url('../img/crissXcross.png');
+  background-size: 15%;
+  box-shadow: 0 13px 10px rgba(0,0,0,0.3);
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-link.is-active {
+  text-decoration: underline;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: inline;
+  margin: 0 rem(15px);
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+	padding: 18px;
+	color: white;
+	font-size: 17px;
+	border-radius: 0 0 10px 10px; 
+	
+	&:hover {
+		background-color: white;
+		color: $c-blue;
+		text-decoration: none;
+		box-shadow: 0 20px 17px rgba(0,0,0,0.5);
+		
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;		
+
+	}
+}
+
+.Navigation-link.is-active {
+		text-decoration: none; 
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
+

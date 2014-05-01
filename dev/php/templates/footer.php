@@ -1,5 +1,18 @@
+
+	<div class="Footer">
+		<div class="u-gridContainer">
+			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
+			<div class="Footer-inner u-gridRow u-gridContainer">
+				<?php dynamic_sidebar( 'footer-widgets' ); ?>
+			</div>
+			<?php endif; ?>
+		</div>
+	</div>
+
 	<!-- Copyright info -->
-	<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?></p>
+	<div class="copyright-info">
+		<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?></p>
+	</div>
 	
   <!-- Load jquery from google CDN if possible, with fallback to local version -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>

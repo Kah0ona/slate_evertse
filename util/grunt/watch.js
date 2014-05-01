@@ -16,8 +16,7 @@ module.exports = {
   },
   php: {
     files: ['dev/php/templates/*.php', 'dev/php/includes/*.php'],
-    tasks: ['delete_sync:phptemplates',
-      'delete_sync:phpincludes',
+    tasks: [
       'newer:copy:php',
       'ftpush:deploy'
     ]
@@ -28,7 +27,7 @@ module.exports = {
   },
   img: {
     files: ['dev/img/**/*'],
-    tasks: ['newer:imagemin:all', 'delete_sync:img', 'ftpush:deploy']
+    tasks: ['newer:imagemin:all', 'ftpush:deploy']
   },
 
   // ----- Enable livereload ----- //

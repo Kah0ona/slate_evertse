@@ -1,0 +1,22 @@
+// *************************************
+//
+// Content
+// -> All content
+//
+// *************************************
+	
+.Content--withSidebar {
+	@include span-columns(7);
+}
+
+.Content-entry {
+	margin-top: 35px;
+	
+	p {
+		font-size: 15px;	
+	}
+}
+
+.HomepageTitle p {
+	font-size: 23px;
+}

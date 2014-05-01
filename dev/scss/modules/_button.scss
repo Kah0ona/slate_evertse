@@ -1,0 +1,76 @@
+// *************************************
+//
+// Button
+// -> All buttons
+//
+// *************************************
+
+.Button {
+  display: inline-block;
+  font-weight: bold;
+  padding: rem(10px) rem(5px);
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// ----- Default ----- //
+
+.Button--default {
+  color: $c-white;
+  fill: $c-white;
+}
+
+// ----- Brand ----- //
+
+.button--contact {
+	color: $c-blue;
+	background-color: white;
+	padding: 14px 17px;
+	margin-left: 35px;
+	border-radius: 10px;
+	font-weight: 600;
+	border: 2px solid transparent;	
+	line-height: 10px;
+	
+	&:hover {
+		color: white;
+		background-color: rgba(0, 27, 51, 0.8);
+		border: 2px solid white;
+
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+}
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Submodule ----- //
+
+// .Module-subModule
