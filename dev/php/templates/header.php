@@ -30,6 +30,8 @@
     <!-- Don't forget to compile and minify the used modernizr features, or to remove it when unused -->
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/standalone/modernizr.js"></script>
 
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
 
