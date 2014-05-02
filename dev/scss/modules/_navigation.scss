@@ -12,7 +12,8 @@
   padding: 1px 0 1px;
   background-image: url('../img/crissXcross.png');
   background-size: 15%;
-  box-shadow: 0 13px 10px rgba(0,0,0,0.3);
+//  box-shadow: 0 13px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
 }
 
 // -------------------------------------
@@ -87,3 +88,18 @@
   font-weight: bold;
 }
 
+
+
+//======================================================================
+//                     @media queries - responsiveness
+//======================================================================
+
+@media all and (max-width: 980px) {	
+	.Navigation-link {
+		display: block;
+		padding: 15px;
+		font-size: 17px;
+		border-radius: 10px;
+		margin: 0 20px;
+	}
+}

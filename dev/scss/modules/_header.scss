@@ -7,7 +7,7 @@
 
 
 .Header {
-  background-image: url("http://placekitten.com/1100/420");
+  background-image: url("../img/everste-header.jpg");
   background-size: cover;
   height: 420px;
   position: relative;
@@ -91,4 +91,13 @@
 		font-size: 22px;
 		color: white;
 	}
+}
+
+
+//======================================================================
+//                     @media queries - responsiveness
+//======================================================================
+
+@media all and (max-width: 980px) {
+	
 }
