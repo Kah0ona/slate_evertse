@@ -109,3 +109,48 @@ input.gform_button {
 		transition: all 0.2s ease-in-out;
 	}
 }
+
+
+//======================================================
+//                   @media queries
+//======================================================
+
+@media all and (max-width: 980px) {
+	.Content-entry {
+		.homepage-text-left {
+			width: auto;
+			float: none;
+		}
+		.homepage-textimg {
+			float: none;
+			display: block;
+			margin: 0 auto 20px;
+		}
+	}
+}
+
+@media all and (max-width: 650px) {
+	.Content--withSidebar {
+		@include span-columns(12);
+	}
+}
+
+
+@media all and (max-width: 620px) {
+	.adress.u-gridCol4 {
+		@include span-columns(12);
+	}
+	.adress-map.u-gridCol8 {
+		@include span-columns(12);
+	}
+
+	.adress-info p {
+		text-align: center;
+	}
+
+	.page-id-18 {
+		h2 {
+			text-align: center;
+		}
+	}
+}

@@ -12,7 +12,6 @@
   padding: 1px 0 1px;
   background-image: url('../img/crissXcross.png');
   background-size: 15%;
-//  box-shadow: 0 13px 10px rgba(0,0,0,0.3);
   overflow: hidden;
 }
 
@@ -70,10 +69,6 @@
 		color: $c-blue;
 		text-decoration: none;
 		box-shadow: 0 20px 17px rgba(0,0,0,0.5);
-		
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;		
 
 	}
@@ -86,9 +81,11 @@
 .Navigation-link--invertedBold {
   color: $c-white; 
   font-weight: bold;
+} 
+
+.Icon--inline {
+	font-size: 30px;
 }
-
-
 
 //======================================================================
 //                     @media queries - responsiveness
@@ -97,9 +94,22 @@
 @media all and (max-width: 980px) {	
 	.Navigation-link {
 		display: block;
-		padding: 15px;
+		background-color: white;
+		text-decoration: none;
+		border: 4px solid white;
+		color: $c-blue;
+		padding: 12px;
 		font-size: 17px;
-		border-radius: 10px;
+		border-radius: 16px;
 		margin: 0 20px;
+				
+		&:hover {
+			border: 4px solid white;			
+			background-color: transparent;
+			color: white;
+		}	
 	}
+	
+	
+	
 }

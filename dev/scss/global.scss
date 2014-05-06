@@ -69,3 +69,32 @@
 // -------------------------------------
 // Inbox
 // -------------------------------------
+
+
+.Navigation-list {
+    display: block;
+}
+
+.Navigation-list.is-hidden {
+    display: none;
+}
+
+.Navigation-list--parent {
+  display: none;
+  @media screen and (min-width : 980px) {
+    display: block;
+  }
+}
+
+.Navigation-menuToggle {
+    display: block;
+    background-color: white;
+	padding: 10px 20px;
+	width: 100px;
+	margin: -1px auto 10px;
+	border-radius: 0 0 10px 10px;
+	
+  @media screen and (min-width : 980px) {
+    display: none;
+  }
+}
