@@ -18,11 +18,10 @@ Template Name: Hompage-template
 					<div class="HomepageTitle">
 						<p>Welkom bij Evertse administratie</p>
 					</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-						<div class="homepage-text-left"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+					<div class="homepage-text-left"> 
 						<img class="homepage-textimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-textimg.jpg">
-					<?php the_content(); ?>
+						<?php the_content(); ?>
+					</div>
 				</div>
 			</article>
 		<?php endwhile; endif; ?>
