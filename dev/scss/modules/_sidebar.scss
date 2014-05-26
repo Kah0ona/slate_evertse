@@ -41,6 +41,7 @@
 	p,a {
 		color: black;
 		font-weight: 300;
+		font-size: 15px;
 	}
 }
 
@@ -59,7 +60,7 @@
 	}
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 810px) {
 	.Sidebar-wrap {
 		display: none;
 	}	
