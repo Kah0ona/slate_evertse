@@ -22,7 +22,7 @@ Template Name: Page w/ sidebar on right
 		</div>
 		
 		<div class="Sidebar-wrap">
-		<div class="Sidebar-title"><p>Waarom Evertse administratie?</p></div>
+		<div class="Sidebar-title"><p>Waarom Evertse Administraties?</p></div>
 			<div class="Sidebar">
 				<?php get_sidebar(); ?>
 			</div>

@@ -16,7 +16,7 @@ Template Name: Hompage-template
 				
 				<div class="Content-entry">
 					<div class="HomepageTitle">
-						<p>Welkom bij Evertse administratie</p>
+						<p>Welkom bij Evertse Administraties</p>
 					</div>
 					<div class="homepage-text-left"> 
 						<img class="homepage-textimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/homepage-textimg.jpg">
@@ -28,7 +28,7 @@ Template Name: Hompage-template
 		</div>
 		
 		<div class="Sidebar-wrap">
-		<div class="Sidebar-title"><p>Waarom Evertse administratie?</p></div>
+		<div class="Sidebar-title"><p>Waarom Evertse Administraties?</p></div>
 			<div class="Sidebar">
 				<?php get_sidebar(); ?>
 			</div>

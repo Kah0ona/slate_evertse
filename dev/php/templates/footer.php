@@ -10,7 +10,7 @@
 				</div>
 				
 				<div class="widget two">
-					<h4>Heerjansdorp</h4>
+					<h4>Heerjansdam</h4>
 					<p>Kromme Nering 24</p>
 					<p>2995 BH Heerjansdam</p>
 					<p>(T) 078-6772440</p>

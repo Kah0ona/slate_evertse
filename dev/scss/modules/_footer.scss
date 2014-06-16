@@ -105,4 +105,9 @@
 		@include span-columns(12);
 		text-align: center;
 	}
+	.copyright-info {
+		p,a {
+			font-size: 10px;
+		}
+	}
 }

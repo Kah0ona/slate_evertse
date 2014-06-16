@@ -18,6 +18,23 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
+								<p>Kromme Nering 24</p>
+								<p>2995 BH Heerjansdam</p>
+								<p>(T) 078-6772440</p>  
+								<p>Email: info@evertse.nl</p>
+							</div>
+						</div>					
+						<div class="adress-map u-gridCol8">
+							<div id="map_canvas2"></div>
+						</div>
+					</div> <!-- /gridRow -->
+
+
+						<hr>
+
+					<div class="u-gridRow">					
+						<div class="adress u-gridCol4">
+							<div class="adress-info">
 								<p>Chopinstraat 1</p>
 								<p>3281 TA Numansdorp</p>
 								<p>(T) 0186-680870</p>
@@ -31,24 +48,9 @@ Template Name: Contactpage
 
 						<hr>
 
-					<div class="u-gridRow">					
-						<div class="adress u-gridCol4">
-							<div class="adress-info">
-								<p>Kromme Nering 24</p>
-								<p>2995 BH Heerjansdam</p>
-								<p>(T) 078-6772440</p>  
-								<p>Email: info@evertse.nl</p>
-							</div>
-						</div>					
-						<div class="adress-map u-gridCol8">
-							<div id="map_canvas2"></div>
-						</div>
-					</div> <!-- /gridRow -->
-
-						<hr>
-
 					<div class="u-gridRow">						
 						<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
+						<a class="aangifte-checklist twee" href="/vacatures/">Vacatures</a>
 						<?php the_content(); ?>
 					
 						<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
