@@ -1,6 +1,14 @@
 	<div class="Footer">
 		<div class="u-gridContainer">
 			<div class="Footer-inner">
+				<div class="widget two">
+					<h4>Heerjansdam</h4>
+					<p>Kromme Nering 24</p>
+					<p>2995 BH Heerjansdam</p>
+					<p>(T) 078-6772440</p>
+					<p>Email: info@evertse.nl</p>
+				</div>
+				
 				<div class="widget one">
 					<h4>Numansdorp</h4>
 					<p>Chopinstraat 1</p>
@@ -9,13 +17,6 @@
 					<p>Email: info@evertse.nl</p>
 				</div>
 				
-				<div class="widget two">
-					<h4>Heerjansdam</h4>
-					<p>Kromme Nering 24</p>
-					<p>2995 BH Heerjansdam</p>
-					<p>(T) 078-6772440</p>
-					<p>Email: info@evertse.nl</p>
-				</div>
 				
 				
 				<div class="widget three">

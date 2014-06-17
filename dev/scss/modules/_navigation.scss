@@ -8,7 +8,6 @@
 .Navigation {
   text-align: center;
   background-color: $c-patternBlue;
-  margin-top: 25px;
   padding: 1px 0 1px;
   background-image: url('../img/crissXcross.png');
   background-size: 15%;
@@ -59,7 +58,7 @@
 // ----- Navigation link ----- //
 
 .Navigation-link {
-	padding: 20px 18px 16px;
+	padding: 20px 18px 14px;
 	color: white;
 	font-size: 17px;
 	border-radius: 0 0 10px 10px; 

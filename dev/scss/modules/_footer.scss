@@ -21,12 +21,15 @@
 		margin: 40px 0 25px 0;
 		font-size: 22px;
 	}
-	p {
+	p,a {
 		color: white;
 		line-height: 10px;
 		font-weight: 400;
 		margin-left: 5px;
 		font-size: 15px;
+	}
+	a {
+		text-decoration: underline;
 	}
 	
 	.widget {
@@ -40,8 +43,7 @@
 }
 
 .Footer-inner .widget {
-	@include span-columns(4);
-	
+	@include span-columns(4);	
 }
 
 .copyright-info p {

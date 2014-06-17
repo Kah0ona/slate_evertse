@@ -45,7 +45,7 @@
 	<!-- Main navigation -->
     <?php include 'includes/navigation.php'; ?>
 
-	<?php if(is_front_page() || is_page_template('template-landingspagina.php')) { ?>
+	<?php if(is_front_page() ||true) { ?>
 	<div class="Header">
 		<div class="Header-text">
 				<p>Nieuwsgierig? Kom gerust eens kennismaken! <a class="Button button--contact" href="/contact/">contact</a></p>
