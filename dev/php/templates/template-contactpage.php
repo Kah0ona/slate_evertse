@@ -50,8 +50,10 @@ Template Name: Contactpage
 
 					<div class="u-gridRow">						
 						<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
-						<a class="aangifte-checklist twee" href="/vacatures/">Vacatures</a>
 						<?php the_content(); ?>
+						<hr>
+						<p>U kunt hier onze vacatures bekijken.
+						<a class="aangifte-checklist twee spatie" href="/vacatures/">Vacatures</a></p>
 					
 						<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 					</div>

@@ -6,7 +6,7 @@
 					<p>Kromme Nering 24</p>
 					<p>2995 BH Heerjansdam</p>
 					<p>(T) 078-6772440</p>
-					<p>Email: info@evertse.nl</p>
+					<p>E-mail: info@evertse.nl</p>
 				</div>
 				
 				<div class="widget one">
@@ -14,7 +14,7 @@
 					<p>Chopinstraat 1</p>
 					<p>3281 TA Numansdorp</p>
 					<p>(T) 0186-680870</p>
-					<p>Email: info@evertse.nl</p>
+					<p>E-mail: info@evertse.nl</p>
 				</div>
 				
 				
@@ -26,6 +26,14 @@
 					  <a href="/app-page/">
 						  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/app-logo.png"></a>
 			      </div>
+			      
+			      <div class="footer-fb-icon"> 
+					  <a target="_blank" href="https://www.facebook.com/pages/Evertse-Administraties/262467593813154?ref_type=bookmark">
+					  	<svg class="Icon Icon--alone" viewBox="0 0 128 128">
+					  		<use xlink:href="#icon-facebook2"></use>
+					  	</svg>
+					  </a>
+			      </div>
 				</div>
 			</div>
 		</div>
@@ -33,7 +41,7 @@
 
 	<!-- Copyright info -->
 	<div class="copyright-info">
-		<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a></p> 
+		<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a> - <a href="/files/2014/06/voorwaarden.pdf">Algemene Voorwaarden</a></p> 
 	</div>
 	
   <!-- Load jquery from google CDN if possible, with fallback to local version -->
