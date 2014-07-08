@@ -7,9 +7,9 @@
 
 .Icon.Icon--alone {
 	float: left;
-    width: auto;
     fill: white;
     height: 50px;
+	width: 50px;
     margin-top: 7px;
     margin-left: 10px;
 		
@@ -20,6 +20,7 @@
 		-o-transition:all 0.2s ease;
 	}
 }
+
 
 .Footer {
   background-color: $c-patternBlue;
@@ -122,6 +123,12 @@
 		@include span-columns(12);
 		text-align: center;
 	}
+	
+	.footer-icons-wrap {
+		margin: 0 auto;
+		width: 140px;
+	}
+
 	.copyright-info {
 		p,a {
 			font-size: 10px;

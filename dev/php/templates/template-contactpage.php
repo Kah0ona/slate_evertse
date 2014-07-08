@@ -21,7 +21,7 @@ Template Name: Contactpage
 								<p>Kromme Nering 24</p>
 								<p>2995 BH Heerjansdam</p>
 								<p>(T) 078-6772440</p>  
-								<p>Email: info@evertse.nl</p>
+								<p>E-mail: info@evertse.nl</p>
 							</div>
 						</div>					
 						<div class="adress-map u-gridCol8">
@@ -38,7 +38,7 @@ Template Name: Contactpage
 								<p>Chopinstraat 1</p>
 								<p>3281 TA Numansdorp</p>
 								<p>(T) 0186-680870</p>
-								<p>Email: info@evertse.nl</p>
+								<p>E-mail: info@evertse.nl</p>
 							</div>
 						</div>					
 						<div class="adress-map u-gridCol8">

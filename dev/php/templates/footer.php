@@ -22,18 +22,21 @@
 				<div class="widget three">
 			      <h4>Sitemap</h4>
 			      <?php include 'includes/sitemap.php'; ?>
-			      <div class="footer-app-logo">
-					  <a href="/app-page/">
-						  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/app-logo.png"></a>
-			      </div>
+
+				  <div class="footer-icons-wrap">
+				      <div class="footer-app-logo">
+						  <a href="/app-page/">
+							  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/app-logo.png"></a>
+				      </div>
 			      
-			      <div class="footer-fb-icon"> 
-					  <a target="_blank" href="https://www.facebook.com/pages/Evertse-Administraties/262467593813154?ref_type=bookmark">
-					  	<svg class="Icon Icon--alone" viewBox="0 0 128 128">
-					  		<use xlink:href="#icon-facebook2"></use>
-					  	</svg>
-					  </a>
-			      </div>
+				      <div class="footer-fb-icon"> 
+						  <a target="_blank" href="https://www.facebook.com/pages/Evertse-Administraties/262467593813154?ref_type=bookmark">
+						  	<svg class="Icon Icon--alone" viewBox="0 0 128 128">
+						  		<use xlink:href="#icon-facebook2"></use>
+						  	</svg>
+						  </a>
+				      </div>
+				  </div>
 				</div>
 			</div>
 		</div>
